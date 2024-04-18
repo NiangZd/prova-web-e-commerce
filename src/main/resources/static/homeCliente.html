@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt" xmlns:th="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Cliente</title>
+
+    <style>
+        button {
+            margin-top: 20px;
+        }
+
+        a {
+            margin-top: 20px
+        }
+    </style>
+</head>
+
+<body style="display: flex; flex-direction: column; align-items: center; justify-content: center; margin: 0;">
+
+    <head>
+        <h1>Seja bem vindo!</h1>
+    </head>
+
+    <form action="/listarProdutosCliente" method="get">
+        <button type="submit">Acessar lista de produtos</button>
+    </form>
+    <form action="/verCarrinho" method="get" style="text-align: center;">
+        <button type="submit">Acessar seu Carrinho</button>
+    </form>
+    <a href="/logout">Clique para sair da conta</a>
+</body>
+
+</html>

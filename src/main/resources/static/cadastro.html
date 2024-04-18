@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro</title>
+</head>
+
+<body>
+
+    <div style="display: flex; justify-content: center; align-items: center; height: 100vh;">
+        <form action="/cadastro" method="post" style="width: 300px; padding: 20px; border-radius: 5px;">
+            <h1 style="text-align: center;">Cadastro</h1>
+            <h2 style="text-align: center;">Prencha o formulário abaixo</h2>
+            <label for="nome">Nome: </label> <input type="text" name="nome" id="nome"  style="width: 100%; margin-bottom: 10px;"> <br>
+            <label for="login">Email: </label> <input type="text" name="login" id="login" style="width: 100%; margin-bottom: 10px;"> <br>
+            <label for="senha">Senha: </label> <input type="password" name="senha" id="senha" style="width: 100%; margin-bottom: 10px;"> <br>
+            <label for="confirma_senha">Confirmar senha: </label> <input type="password" name="confirma_senha" id="confirma_senha" style="width: 100%; margin-bottom: 10px;"> <br>
+
+            <button type="submit" style="width: 100%; margin-top: 10px;">Cadastrar</button >
+
+            <p style="text-align: center;"> <a href="/index.html">Não tenho conta</a></p>
+        </form>
+    </div>
